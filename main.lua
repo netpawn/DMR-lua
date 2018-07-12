@@ -22,8 +22,8 @@ physics.start()
 physics.addBody(platform, "static")
 physics.addBody(ghost, "dynamic", { radius=40, bounce=0.3 } )
 
-local function pushBalloon()
+local function pushghost()
     ghost:applyLinearImpulse( 0, 1, ghost.x, ghost.y )
 end
  
-ghost:addEventListener( "tap", pushBalloon )
+ghost:addEventListener( "tap", pushghost )
