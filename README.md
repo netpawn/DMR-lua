@@ -1,11 +1,2 @@
-<<<<<<< HEAD
-Paolo fa skifo ! =)
-:)
-:)
-:)
-=======
-Eroina è buona :=?
-prova prova
-test push 1
-prova ancora
->>>>>>> 54ba570f19d00915094b48dea615ff59fe67b473
+Prova per l'ultima volra speriamo bene!
+p.s paolo fa sempre schifo xD
