@@ -21,6 +21,11 @@ settings =
 		usesPermissions =
 		{
 			"android.permission.INTERNET",
+			"android.permission.ACCESS_NETWORK_STATE",
+			"android.permission.WRITE_EXTERNAL_STORAGE",
+			"android.permission.GET_ACCOUNTS",
+			"android.permission.ACCESS_COARSE_LOCATION",
+			"android.permission.ACCESS_FINE_LOCATION",
 		},
 	},
 
@@ -32,8 +37,8 @@ settings =
 		xcassets = "Images.xcassets",
 		plist =
 		{
-			UIStatusBarHidden = false,
-			UILaunchStoryboardName = "LaunchScreen",
+            UILaunchStoryboardName = "LaunchScreen",
+			NSAppTransportSecurity = { NSAllowsArbitraryLoads=true }, 
 		},
 	},
 
@@ -41,9 +46,20 @@ settings =
 	-- Plugins section
 	--
 	plugins =
-	{
-
-	},
+    {	
+		-- Base
+		['plugin.appodeal.base'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.AmazonAds'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.GoogleAdMob'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.TwitterMoPub'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.StartApp'] = { publisherId = 'com.coronalabs' },
+		-- Banner
+		['plugin.appodeal.AppLovin'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.FacebookAudience'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Flurry'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.InMobi'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.MyTarget'] = { publisherId = 'com.coronalabs' },
+    },
 
 	--
 	-- Project section
