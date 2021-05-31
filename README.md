@@ -1,4 +1,4 @@
-# DMR-lua
+# Dank Memes Revolution - A mobile game about memes for iOS and Android
 My way of learning LUA using Corona SDK by making a game with memes. 
 I wanted to learn some LUA for a long time (back in 2017) and what's more fun than learning something by making a game? 
 Well, making a game with memes of course. That was the time where memes on instagram went banans and i took the opportunity to make a 
